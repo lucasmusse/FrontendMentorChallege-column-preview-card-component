@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.orange-bg{
+    background-color:var(--orange) ;
+}
+
+.cyan-bg{
+    background-color: var(--dark-cyan);
+}
+
+.dark-cyan-bg{
+    background-color: var(--very-dark-cyan);
+}
+
+.orange-color{
+    color:var(--orange) ;
+}
+
+.cyan-color{
+    color: var(--dark-cyan);
+}
+
+.dark-cyan-color{
+    color: var(--very-dark-cyan);
+}
+
+.mb{
+    margin-bottom: 18px;
+}
+
+.mb-text{
+    margin-bottom: 108px;
+}
+
+.bd-left{
+    border-top-left-radius:12px;
+    border-bottom-left-radius:12px;
+}
+
+
+.bd-right{
+    border-top-right-radius:12px;
+    border-bottom-right-radius:12px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    
+}
+
+.card{
+    padding: 48px 38px;
+    flex-shrink: 0;
+    max-width: 280px;
+    
+}
+
+.title{
+    color: var(--transparent-white) ;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+
+}
+
+.text{
+    color:var(--light-gray) ;
+    font-size: 15px;
+    line-height: 24px;
+    
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.btn{
+    padding: 12px 24px;
+    background-color: var(--transparent-white);
+    border-radius: 24px;
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid var(--transparent-white);
+    color: var(--transparent-white);
+}
+
+.attribution{
+    margin: 10px;
+}
+
+@media screen and (max-width: 869px) {
+    .content{
+        flex-direction: column;
+        height: 100%;
+        margin:10% 5%;
+    }
+
+    .card{
+        max-width:400px ;
+        min-width:280px ;
+    }
+
+    .mb-text{
+        margin-bottom: 32px;
+    }
+
+    .bd-left{
+        border-top-left-radius:12px;
+        border-top-right-radius:12px;
+        border-bottom-left-radius:0px;
+        
+    }
+    .bd-right{
+        border-bottom-right-radius:12px;
+        border-bottom-left-radius:12px;
+        border-top-right-radius:0px;
+    }
+
+    
+
+    
+}
+
+
+
+
