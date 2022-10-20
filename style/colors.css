@@ -1,0 +1,23 @@
+.orange-bg{
+    background-color:var(--orange) ;
+}
+
+.cyan-bg{
+    background-color: var(--dark-cyan);
+}
+
+.dark-cyan-bg{
+    background-color: var(--very-dark-cyan);
+}
+
+.orange-color{
+    color:var(--orange) ;
+}
+
+.cyan-color{
+    color: var(--dark-cyan);
+}
+
+.dark-cyan-color{
+    color: var(--very-dark-cyan);
+}

@@ -1,0 +1,30 @@
+.card{
+    padding: 48px 38px;
+    flex-shrink: 0;
+    max-width: 280px;
+    
+}
+
+.title{
+    color: var(--transparent-white) ;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+
+}
+
+.text{
+    color:var(--light-gray) ;
+    font-size: 15px;
+    line-height: 24px;
+    
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+@media screen and (max-width: 869px) {
+    
+    .card{
+        max-width:400px ;
+        min-width:280px ;
+    }
+}
